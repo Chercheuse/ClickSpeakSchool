@@ -1,0 +1,856 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-color: #FEF4EB;
+}
+
+.container {
+    max-width: 1180px;
+    width: 100%;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+.header_container_wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    border-bottom: #000000 1px solid;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    z-index: 6;
+    background-color: #FEF4EB;
+}
+
+.first_page {
+    display: flex;
+    flex-direction: row;
+}
+
+.first_page_content {
+    margin-top: 150px;
+}
+
+.company_name {
+    width: 167px;
+    height: 26px;
+    left: 140px;
+    top: 24px;
+    font-family: 'Dela Gothic One';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 110%;
+    color: #000000;
+    text-decoration: none;
+}
+
+
+.elements {
+    font-family: 'Questrial';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    list-style: none;
+    color: #020202;
+
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 0px;
+    gap: 49px;
+    width: 341px;
+    height: 19px;
+}
+
+.elements_link {
+    text-decoration: none;
+    color: #000000;
+    padding: 8px 16px;
+}
+
+.telegram_icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+
+}
+
+.instagram_icon {
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+}
+
+h1 {
+    position: relative;
+    top: 80px;
+    width: 723px;
+    height: 237px;
+    font-family: 'Dela Gothic One';
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 110%;
+    color: #020202;
+}
+
+.subtitle_description {
+    width: 645px;
+    height: 84px;
+    font-family: 'Questrial';
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 28px;
+    color: #020202;
+    margin: 32px 0 46px;
+}
+
+.first_page_buttons {
+    display: flex;
+    gap: 32px;
+}
+
+.design_firstpage {
+    width: 581px;
+    height: 577px;
+    margin-top: 124px;
+}
+
+.choose_a_course {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 32px;
+    gap: 1px;
+    padding: 16px 32px;
+    background: #397C54;
+    border-radius: 28px;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.choose_a_course:hover {
+    background-color: #174e2d;
+}
+
+.pass_a_test {
+    width: 128px;
+    height: 52px;
+    background: #EEEEEE;
+    border-radius: 28px;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+
+.pass_a_test:hover {
+    background-color: #a0a0a0;
+}
+
+.button_first_text {
+    width: 183px;
+    height: 20px;
+    color: #EEEEEE;
+    text-decoration: none;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    font-family: 'Questrial';
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+}
+
+.button_second_text {
+    font-family: 'Questrial';
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+    color: #020202;
+    text-decoration: none;
+}
+
+.arrow_first_page {
+    width: 102.74px;
+    height: 57.49px;
+
+}
+
+.green_ball {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 0;
+    right: 113px;
+}
+
+h2 {
+    width: 459px;
+    font-family: 'Dela Gothic One';
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 110%;
+    color: #020202;
+    margin-top: 130px;
+}
+
+.details_image_dev {
+    width: 340px;
+    height: 358px;
+    margin-top: 149px;
+}
+
+.details_image {
+    display: flex;
+    flex-direction: column;
+    width: 35%
+}
+
+.details_text_content {
+    display: flex;
+    flex-direction: column;
+    margin: 100px 0 0 15px;
+    width: 65%;
+}
+
+.details {
+    display: flex;
+    flex-direction: row;
+}
+
+.details_description_content {
+    width: 418px;
+    height: 72px;
+    font-family: 'Questrial';
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: #020202;
+}
+
+.details_description_number {
+    width: 23px;
+    height: 40px;
+    font-family: 'Dela Gothic One';
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 110%;
+    display: flex;
+    align-items: center;
+    color: #020202;
+}
+
+.details_text_left {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-self: flex-start;
+    margin-bottom: 56px;
+}
+
+.details_content_right {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-self: flex-end;
+    margin-bottom: 56px;
+}
+
+.details_arrow {
+    margin: 100px 0 0 15px;
+}
+
+.details_header {
+    display: flex;
+}
+
+.details_more {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 166px;
+    height: 20px;
+    font-family: 'Questrial';
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    color: #020202;
+}
+
+.teachers_header {
+    display: flex;
+}
+
+.mySwiper {
+    width: 100%;
+    height: 100%;
+    padding: 0 50px;
+    margin-top: 60px;
+}
+
+swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.teacher_name {
+    font-family: 'Questrial';
+    font-weight: 800;
+    font-size: 30px;
+    margin-top: 8px;
+}
+
+.techear_description {
+    font-family: 'Questrial';
+    font-weight: 800;
+    font-size: 16px;
+    margin-top: 8px;
+}
+
+footer {
+    background-color: #000000;
+    height: 100px;
+    margin: 0;
+    padding: 0;
+}
+
+.footer_info {
+    display: flex;
+    flex-direction: column;
+    padding: 22px 0;
+}
+
+.footer_links {
+    font-family: 'Questrial';
+    font-weight: 800;
+    font-size: 16px;
+    color: #FEF4EB;
+    text-align: center;
+    text-decoration: none;
+}
+
+.testimonials {
+    display: flex;
+    flex-direction: column;
+    z-index: 10;
+}
+
+.testimonials_header {
+    display: flex;
+}
+
+.testimonials_wrapper {
+    display: flex;
+    margin-top: 96px;
+}
+
+.testimonials_students {
+    display: flex;
+    gap: 40px;
+
+}
+
+.testimonials_studets_info {
+    display: flex;
+    gap: 16px;
+}
+
+.testimonials_students_personality {
+    display: flex;
+    flex-direction: column;
+}
+
+.student_image {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+
+}
+
+.testimonials_column1,
+.testimonials_column2,
+.testimonials_column3,
+.testimonials_column4,
+.testimonials_column5,
+.testimonials_column6 {
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    width: 360px;
+    gap: 16px;
+    background: #fff;
+    border: 2px solid #000000;
+
+}
+
+.testimonials_column1 {
+    height: 220px;
+}
+
+.testimonials_column2 {
+    height: 292px;
+}
+
+.testimonials_column3 {
+    height: 340px;
+}
+
+.testimonials_column4 {
+    height: 250px;
+}
+
+.testimonials_column5 {
+    height: 250px;
+}
+
+.testimonials_column6 {
+    height: 244px;
+}
+
+.testimonials_columns {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.testimonials_student_name {
+    font-family: 'Questrial';
+    font-size: 16px;
+    line-height: 24px;
+    color: #020202;
+}
+
+.testimonials_student_nickname {
+    font-family: 'Questrial';
+    font-size: 16px;
+    line-height: 24px;
+    color: #020202;
+}
+
+.feedback {
+    font-family: 'Questrial';
+    font-size: 16px;
+    line-height: 24px;
+    color: #020202;
+}
+
+.testimonials_header h2 {
+    width: 550px;
+}
+
+.testimonials_icon {
+    position: relative;
+    bottom: 55px;
+    z-index: -1;
+}
+
+.container_background {
+    background-color: #F8E5DE;
+}
+
+.subscription {
+    display: flex;
+    gap: 46px;
+}
+
+.subscription_header {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin-top: 150px;
+
+}
+
+h3 {
+    width: 456px;
+    height: 56px;
+    font-family: 'Questrial';
+    font-size: 22px;
+    line-height: 28px;
+    color: #020202;
+
+}
+
+.subscription_form {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 64px 52px;
+    gap: 10px;
+    width: 560px;
+    height: 632px;
+    background-color: #FEF4EB;
+    border: 2px solid #000000;
+    margin: 77px 0 77px;
+
+}
+
+.form_inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 32px;
+    width: 456px;
+    height: 504px;
+}
+
+input,
+select {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 16px;
+    gap: 10px;
+    width: 456px;
+    height: 60px;
+    border: 1px solid #D9D9D9;
+    background-color: #FEF4EB;
+}
+
+.form_submit_btn {
+    width: 157px;
+    height: 20px;
+    font-family: 'Questrial';
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FEF4EB;
+    background: #397C54;
+    border-radius: 28px;
+    transition: all 0.3s ease;
+    border: none;
+    align-items: center;
+    padding: 20px 40px;
+    width: 456px;
+    height: 60px;
+}
+
+.form_submit_btn:hover {
+    background-color: #174e2d;
+}
+
+.input_element {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.input_descr,
+option {
+    width: 95px;
+    height: 21px;
+    font-family: 'Questrial';
+    font-size: 16px;
+    line-height: 21px;
+    color: #231F20;
+}
+
+.subscription_star {
+    width: 111px;
+    height: 110px;
+    position: relative;
+    top: 38px;
+    z-index: 1;
+}
+
+.subscription_arrow {
+    width: 140.05px;
+    height: 71.25px;
+    transform: rotate(14.13deg);
+    position: relative;
+    left: 300px;
+
+}
+
+.subscription_header h2 {
+    margin-top: 0;
+    z-index: 5;
+}
+
+.subscr_head_initial {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+.accordion {
+    background: #FEF4EB;
+    cursor: pointer;
+    text-align: left;
+    transition: 0.4s;
+    height: 120px;
+    padding-left: 140px;
+    font-family: 'Questrial';
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.03em;
+    color: #000000;
+    border: none;
+}
+
+.active,
+.accordion:hover {
+    background-color: rgb(175, 175, 175)4EB;
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: #FEF4EB;
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.2s ease-out;
+
+}
+
+.panel p {
+    font-family: 'Questrial';
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    height: 144px;
+    margin: 25px 0 40px 140px;
+    width: 774px;
+}
+
+.q_a-accordion {
+    margin: 96px 0 0;
+}
+
+.acc_btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.arrow_down {
+    width: 36px;
+    height: 36px;
+}
+
+.acc_btn_general {
+    width: 100%;
+    padding: 0;
+    border-width: 1px 0px;
+    border-style: solid;
+    border-color: #000000;
+    padding: 0;
+    width: 100%
+}
+
+.q_a {
+    display: flex;
+}
+
+.faq_arrow {
+    position: relative;
+    bottom: 0;
+    margin-top: 130px;
+}
+
+.formats_arrow {
+    position: relative;
+    left: 180px;
+    top: -15px;
+}
+
+/* */
+
+.container_tabs {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.tabs {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 435px;
+    background-color: #EEEEEE;
+    border-radius: 22px;
+}
+
+.tab {
+    padding: 5px 28px;
+    cursor: pointer;
+    font-family: 'Questrial';
+    font-size: 16px;
+    line-height: 28px;
+    color: #000000;
+    text-align: center;
+    transition: all 0s ease;
+    width: 145px;
+}
+
+.tab-dur {
+    padding: 5px 28px;
+    cursor: pointer;
+    font-family: 'Questrial';
+    font-size: 16px;
+    line-height: 28px;
+    color: #000000;
+    text-align: center;
+    transition: all 0s ease;
+    width: 145px;
+}
+
+.tab.active {
+    width: 145px;
+    height: 38px;
+    background: #397C54;
+    color: #FEF4EB;
+    border-radius: 22px;
+}
+
+.tab-dur.active {
+    width: 145px;
+    height: 38px;
+    background: #397C54;
+    color: #FEF4EB;
+    border-radius: 22px;
+}
+
+.content {
+    width: 100%;
+    margin-top: 25px;
+}
+
+.content-item {
+    display: none;
+    padding: 50px;
+}
+
+.content-item.active {
+    display: flex;
+    gap: 40px;
+}
+
+.tabs_quantity,
+.tabs_duration {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.tabs_for_duration {
+    display: flex;
+}
+h5 {
+    font-family: 'Questrial';
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #231F20;
+}
+
+.tabs_general {
+    display: flex;
+    justify-content: space-between;
+}
+
+.format_pairs {
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    height: 296px;
+    border: 2px solid #000000;
+}
+
+.format_name {
+    border-bottom: 2px solid #000000;
+    padding: 29px 101px;
+    height: 94px;
+    background: #EEEEEE;
+    font-family: 'Questrial';
+    font-size: 24px;
+    line-height: 36px;
+    display: flex;
+    text-align: center;
+    color: #231F20;
+    align-items: center;
+
+}
+
+.format_subsc {
+    display: flex;
+    gap: 13px;
+}
+
+.format_desc {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 36px 28px;
+}
+
+.format_desc_text {
+    font-family: 'Questrial';
+    font-size: 18px;
+    line-height: 28px;
+    color: #020202;
+
+}
+
+.format_chosen {
+    width: 172px;
+    height: 52px;
+    background: #397C54;
+    border-radius: 28px;
+    border: none;
+    color: #FEF4EB;
+
+}
+
+.price {
+    font-family: 'Dela Gothic One';
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #020202;
+}
+
+#work_in_groups {
+    background: #BFE6D8;
+}
